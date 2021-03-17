@@ -1,0 +1,27 @@
+form{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+form input[name="longitude"],
+form input[name="latitude"]{
+    background-color: transparent;
+    color: whitesmoke;
+    border: 0;
+    border-bottom: 8px solid whitesmoke;
+    border-radius: 0;
+    font-size: x-large;
+}
+
+
+form input:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+    
+form input{
+    color:whitesmoke !important;
+    font-size: larger;
+    font-weight: bolder;
+
+}
